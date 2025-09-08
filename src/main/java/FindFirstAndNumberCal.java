@@ -8,8 +8,8 @@ public class FindFirstAndNumberCal {
                 .filter(n -> n % 2 == 0)
                 .map(n -> n * 2)
                 .collect(Collectors.toList());
-       // System.out.println(numbers); // [4, 8, 12]
-       // findSecondHighest(list);
+       System.out.println(numbers); // [4, 8, 12]
+        findSecondHighest(list);
 
 
         List<Integer> numberList= Arrays.asList(10,9,5,10,4,5,9,5,10,3,4,3,3);
